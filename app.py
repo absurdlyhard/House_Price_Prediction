@@ -9,7 +9,7 @@ address_sorted = sorted(df["Address"].astype(str).unique())
 
 model = joblib.load('model.joblib')
 
-st.title('Prediction of House Price in Tehran')
+st.title('Prediction of House Price in Tehran 🏠')
 
 Area = st.number_input("Area in squared meter", 60) 
 Room = st.selectbox("Number of Rooms", [0, 1, 2, 3, 4, 5])
